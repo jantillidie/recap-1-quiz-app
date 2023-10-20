@@ -84,3 +84,35 @@ main {
   padding: 6px;
   border-radius: 4px;
 }
+
+.footer {
+  background-color: darkslategray;
+  color: orange;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navi {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.navi a {
+  color: darkorange;
+  text-decoration: none;
+}
+
+.navi li {
+  padding: 20px;
+}
+
+.navi li.active {
+  background-color: darkcyan;
+}
+
+.navi li.active a {
+  color: azure;
+}
