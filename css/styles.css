@@ -11,3 +11,13 @@ body {
   color: linen;
   background-color: rgb(60, 68, 76);
 }
+
+.heading {
+  background-color: darkslategrey;
+  padding: 1rem;
+}
+
+.heading-title {
+  color: darkorange;
+  text-align: center;
+}
