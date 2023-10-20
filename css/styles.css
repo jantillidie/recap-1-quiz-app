@@ -21,3 +21,66 @@ body {
   color: darkorange;
   text-align: center;
 }
+
+.card-title {
+  padding: 10px 60px;
+  text-align: center;
+}
+
+
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  /* padding-inline: 1rem;
+  padding-block: 2rem; */
+  margin: 1rem;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  min-height: 250px;
+  margin: 20px;
+  border: 1px solid linen;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.card-answer {
+  display: none;
+}
+
+.bookmark {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  font-size: 40px;
+  position: relative;
+  top: -28px;
+  align-self: flex-end;
+}
+
+.show-answer, .hide-answer {
+  width: 50%;
+  padding: 12px;
+  border-radius: 5px;
+  align-self: center;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 14px;
+}
+
+.tag {
+  background-color: linen;
+  color: darkgreen;
+  padding: 6px;
+  border-radius: 4px;
+}
