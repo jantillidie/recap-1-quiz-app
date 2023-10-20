@@ -65,7 +65,7 @@ main {
 }
 
 .show-answer, .hide-answer {
-  width: 50%;
+  width: fit-content;
   padding: 12px;
   border-radius: 5px;
   align-self: center;
@@ -85,7 +85,7 @@ main {
   border-radius: 4px;
 }
 
-.footer {
+.nav {
   background-color: darkslategray;
   color: orange;
   position: fixed;
