@@ -32,8 +32,6 @@ body {
 main {
   display: flex;
   flex-wrap: wrap;
-  /* padding-inline: 1rem;
-  padding-block: 2rem; */
   margin: 1rem;
   justify-content: center;
 }
@@ -87,6 +85,23 @@ main {
   border-radius: 4px;
 }
 
+.counters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 14px;
+  margin-top: auto;
+  justify-content: center;
+}
+
+.counter {
+  background-color: azure;
+  color: black;
+  padding: 6px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
 .nav {
   background-color: darkslategray;
   color: orange;
@@ -121,4 +136,37 @@ main {
 .navi li.active a,
 .navi li:hover a {
   color: azure;
+}
+
+.profile-card,
+.settings-card {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 20px;
+  padding: 10px;
+}
+
+.profile-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 140px;
+  border-radius: 50%;
+}
+
+.settings-dark-mode {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+
+.about-me-title,
+.settings-title {
+  margin: 10px 0;
 }

@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Profile</title>
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-  <header class="heading">
-    <h1 class="heading-title">Quiz App</h1>
-  </header>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="heading">
+      <h1 class="heading-title">Quiz App</h1>
+    </header>
+    <main>
+      <section class="profile-card">
+        <div class="profile-heading">
+          <img src="img/profilepicmaxdoe.png" alt="Profile Picture" class="profile-pic" />
+          <h2 class="card-title">Max Doe</h2>
+        </div>
+        <h2 class="about-me-title">About me</h2>
+        <p class="about-me">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, dolorum natus? Nobis cumque veritatis
+          dolores libero delectus, odio, consequatur natus, atque fugiat ut ipsa ducimus soluta maxime corrupti eaque
+          iusto!
+        </p>
+        <div class="counters">
+          <div class="counter">❓❗ 12</div>
+          <div class="counter">📌 4</div>
+        </div>
+      </section>
+      <section class="settings-card">
+        <h2 class="settings-title">Settings</h2>
+        <div class="settings-dark-mode">
+          <h3 class="settings-subtitle">Dark Mode</h3>
+          <label for="darkmode" class="switch"><input type="checkbox" /></label>
+        </div>
+      </section>
+    </main>
+    <nav class="nav">
+      <ul class="navi">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="bookmarks.html">Bookmarks</a></li>
+        <li class="active"><a href="#">Profile</a></li>
+      </ul>
+    </nav>
+  </body>
 </html>
