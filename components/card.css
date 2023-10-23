@@ -1,0 +1,104 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  min-height: 250px;
+  margin: 20px;
+  border: 1px solid linen;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.card-title {
+  padding: 10px 60px;
+  text-align: center;
+}
+
+.card-answer {
+  display: none;
+}
+
+.bookmark {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  font-size: 40px;
+  position: relative;
+  top: -28px;
+  align-self: flex-end;
+}
+
+
+.show-answer,
+.hide-answer {
+  width: fit-content;
+  padding: 12px;
+  border-radius: 5px;
+  align-self: center;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 14px;
+  margin-top: auto;
+}
+
+.tag {
+  background-color: linen;
+  color: darkgreen;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.profile-card,
+.settings-card {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 20px;
+  padding: 10px;
+}
+
+.profile-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 140px;
+  border-radius: 50%;
+}
+
+.settings-dark-mode {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+
+.about-me-title,
+.settings-title {
+  margin: 10px 0;
+}
+
+.counters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 14px;
+  margin-top: auto;
+  justify-content: center;
+}
+
+.counter {
+  background-color: azure;
+  color: black;
+  padding: 6px;
+  border-radius: 4px;
+  font-weight: bold;
+}

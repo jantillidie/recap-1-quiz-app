@@ -1,0 +1,35 @@
+.nav {
+  background-color: darkslategray;
+  color: orange;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navi {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.navi a {
+  color: darkorange;
+  text-decoration: none;
+}
+
+.navi li {
+  padding: 20px;
+  flex: 1;
+  text-align: center;
+}
+
+.navi li.active,
+.navi li:hover {
+  background-color: darkcyan;
+}
+
+.navi li.active a,
+.navi li:hover a {
+  color: azure;
+}
